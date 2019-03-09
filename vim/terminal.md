@@ -11,7 +11,8 @@ Vimの端末機能について
 
 以下のコマンドでterminal modeが有効かどうか確認できる。  
 1が返ってくれば有効になっている。
-```
+
+```vim
 :echo has('terminal')
 ```
 
@@ -26,7 +27,8 @@ Vimの端末機能について
   
 vimrc内で以下のように設定する。  
 colorscheme内で上書きされる可能性があるので、最後の方で設定する。
-```
+
+```vim
 let g:terminal_ansi_colors = [
     \ '#282828',
     \ '#f43753',
@@ -46,5 +48,3 @@ let g:terminal_ansi_colors = [
     \ '#ffffff'
     \ ]
 ```
-
-
